@@ -1,0 +1,72 @@
+$primaryColor: #225378
+$secondaryColor: #1695A3
+$tertiaryColor: #ACF0F2
+$miscColor: #EB7F00
+
+$headerFont: "Montserrat", sans-serif
+$bodyFont: "Raleway", sans-serif
+
+/* ===== GENERAL ===== */
+
+body
+	font-family: $bodyFont
+	font-size: 16px
+	margin-top: 50px
+	box-sizing: border-box
+
+/* ===== GLOBAL ===== */
+
+h1, h2, h3, h4, h5, h6
+	-webkit-font-smoothing: antialiased
+	text-rendering: optimizelegibility
+	font-weight: bold
+	font-family: $headerFont
+h1 
+	font-size: 3em
+
+h1,h2 
+	margin: 0 0 20px
+
+h3 
+	margin: 20px 0
+
+h4 
+	font-size: 18px
+p 
+	margin: 0 0 15px
+p.lead
+	font-weight: normal
+a
+	text-decoration: none
+button, input, .btn, a.btn 
+	-webkit-font-smoothing: antialiased
+	text-rendering: optimizelegibility
+	color: white
+.btn
+	font-weight: bold
+.btn-success
+	background-image: none
+	background-color: $primaryColor
+	border-color: $primaryColor
+.btn-success:hover, .btn-success:focus
+	background-color: darken($primaryColor, 10%)
+	border-color: darken($primaryColor, 10%)
+img
+	max-width: 100%
+section
+	padding-top: 50px
+	padding-bottom: 80px
+
+/* ===== HERO ===== */
+
+#hero
+	text-align: center
+	min-height: 600px
+	background: url('../images/desk-background.jpg') no-repeat top
+	background-size: cover
+	color: white
+#hero h1
+	margin-top: 150px
+#hero button
+	margin-top: 30px
+	margin-left: 25px
