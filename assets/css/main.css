@@ -27,7 +27,7 @@ h4 {
   font-size: 18px; }
 
 p {
-  margin: 0 0 15px; }
+  margin: 0; }
 
 p.lead {
   font-weight: normal; }
@@ -96,6 +96,10 @@ footer .navbar {
   margin-bottom: 0; }
 
 .footer-nav li {
+  text-align: center; }
+
+/* ===== SIGNUP FORM ===== */
+#signup-section h1 {
   text-align: center; }
 
 /*# sourceMappingURL=main.css.map */

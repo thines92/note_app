@@ -1,29 +1,4 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <!-- Bootstrap Core CSS File(s) -->
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-        <link rel="stylesheet" href="assets/css/bootstrap-theme.min.css">
-
-        <!-- Google Fonts -->
-        <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
-        <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
-
-        <!-- Custom CSS File -->
-        <link rel="stylesheet" href="assets/css/main.css">
-    </head>
-    <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+        <?php include "templates/header.php" ?>
 
         <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container">
@@ -124,16 +99,13 @@
                             <a href="#" class="navbar-brand">Noted</a>
                         </div><!-- end col -->
 
-                        <div class="col-xs-4 col-xs-offset-1">
-                            <ul class="footer-nav navbar-nav nav list-inline">
+                        <div class="col-xs-4 col-xs-offset-4">
+                            <ul class="footer-nav navbar-nav nav list-inline pull-right">
                                 <li><a href="#">Sign Up</a></li>
                                 <li><a href="#">Log In</a></li>
                             </ul>
                         </div><!-- end col -->
 
-                        <div class="col-xs-2 col-xs-offset-1">
-                            <p class="nav navbar-nav copyright">&copy; Tyler Hines</p>
-                        </div>
                     </div><!-- row -->
                 </div><!-- container -->
             </div><!-- navbar -->
@@ -141,26 +113,4 @@
         
 
 
-		<!-- jQuery Latest Build File -->
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-
-        <!-- Bootstrap JavaScript File -->
-        <script src="assets/js/bootstrap.min.js"></script>
-
-        <!-- Various Plugins -->
-        <script src="assets/js/parallax.min.js"></script>
-
-        <!-- Custom JavaScript File -->
-        <script src="assets/js/global.js"></script>
-
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X');ga('send','pageview');
-        </script>
-    </body>
-</html>
+		<?php include "templates/footer.php" ?>
